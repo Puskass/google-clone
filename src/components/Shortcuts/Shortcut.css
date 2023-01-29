@@ -1,5 +1,12 @@
 .shortcut{
     background-color: #4747a5;
-    
 }
 
+.row-1{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    margin-left: 20px;
+}
