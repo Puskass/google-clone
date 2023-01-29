@@ -11,7 +11,7 @@ const Navbar = () => {
         <li>Gmail</li>
         <li>Images</li>
         <li><AppsIcon /></li>
-        <li><AccountCircleIcon /></li>
+        <li><AccountCircleIcon className='Icon'/></li>
       </ul>
     </div>
   
