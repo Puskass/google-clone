@@ -1,11 +1,21 @@
-import React from 'react'
-import './Shortcut.css'
+import React from 'react';
+import './Shortcut.css';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Shortcut = () => {
   return (
+    
     <div className='shortcut'>
-    These are Shortcuts
+      <div className="row-1">
+        
+        <div className="icon icon-1">
+        <YouTubeIcon />
+        <p className="icon-name">YouTube</p>
+        </div>
+       
+      </div>
     </div>
+  
   )
 }
 

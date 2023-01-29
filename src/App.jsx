@@ -5,11 +5,13 @@ import Shortcut from './components/Shortcuts/Shortcut';
 
 function App() {
   return (
+    
     <div className="App">
       <Navbar />
       <Search />
       <Shortcut />
     </div>
+  
   );
 }
 
