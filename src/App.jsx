@@ -1,9 +1,14 @@
+import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Search from './components/Search/Search';
+import Shortcut from './components/Shortcuts/Shortcut';
 
 function App() {
   return (
-    <div>
-    <h2>super</h2>
-    <p>Dobar pravo paragraf</p>
+    <div className="App">
+      <Navbar />
+      <Search />
+      <Shortcut />
     </div>
   );
 }
