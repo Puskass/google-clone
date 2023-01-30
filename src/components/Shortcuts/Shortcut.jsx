@@ -10,7 +10,7 @@ const Shortcut = () => {
       <div className="row row-1">
         
         <div className="icon">
-        <YouTubeIcon />
+        <YouTubeIcon className='YT'/>
         <p className="icon-name">YouTube</p>
         </div>
        
@@ -21,7 +21,7 @@ const Shortcut = () => {
 
         <div className="icon">
         <FindReplaceIcon />
-        <p className="icon-name icon-3">Mp3 Conv.</p>
+        <p className="icon-name">Mp3 Conv.</p>
         </div>
       
         <div className="icon">
